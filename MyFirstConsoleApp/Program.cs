@@ -58,11 +58,3 @@ while(isOpen)
     Console.Write("\n Нажмите любую клавишу для продолжения...");
     Console.ReadKey();
 }
-for(int i = 0; i < books.GetLength(0); i++)
-{
-    for(int j = 0; j < books.GetLength(1); j++)
-    {
-        Console.Write(books[i,j ] + " ");
-    }
-    Console.WriteLine();
-}
